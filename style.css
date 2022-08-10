@@ -65,3 +65,37 @@ body {
     color: black;
     border: 2px solid black;
 }
+
+@media screen and (max-width: 749px) {
+
+    body {
+        background: url(responsive.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        left: 35%;
+    }
+
+    .container h1 {
+        border-bottom: 5px solid #164889;
+    }
+
+    .box input {
+        border-bottom: 2px solid #164889;
+    }
+    .btn{
+        border: 2px solid #164889;
+    }
+    .btn:hover{
+        opacity: 1;
+        background-color: #164889;
+    }
+    .box i{
+        filter: none;
+    }
+}
